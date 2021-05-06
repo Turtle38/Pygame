@@ -38,7 +38,7 @@ while running:
         if event.type == pygame.KEYDOWN:
             #quelle touche a été utilisé
             if event.key ==pygame.K_RIGHT:
-                print("cujzhbc")
+                game.player.move_right()
             elif event.key == pygame.K_LEFT:
-                print("gbz")
+                game.player.move_left()
 
